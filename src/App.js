@@ -70,7 +70,7 @@ export default function App() {
 
     return (
         <div className="App">
-            <h1>Voxel Photo Gallery</h1>
+            <h1>Gallery App</h1>
             <h2>Let's build the next Instagram! (sort of)</h2>
 
             <div className="gallery">
