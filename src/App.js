@@ -50,8 +50,7 @@ export default function App() {
     useEffect(() => {
         const fetch = async () => {
             const result = await api.fetchImages(page);
-            const updatedImages = [...images, ...result];
-            setImages(updatedImages);
+            setImages((prevImages) => [...prevImages, ...result]);
         };
         fetch();
     }, [page]);
